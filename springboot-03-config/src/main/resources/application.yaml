@@ -2,5 +2,67 @@
 # 官方的配置太多了，我们了解原理之后，可以一通百通
 # 官网配置网址：https://docs.spring.io/spring-boot/docs/2.1.6.RELEASE/reference/htmlsingle/#boot-features-external-config
 
+## --------------------------yaml语法--------------------------
+#server:
+#  port: 8080
+#
+## 普通的key-value键值对
+#name: wxx
+#
+#
+## 对象
+#student:
+#  name: wxx
+#  age: 3
+#
+#student2: {name: wxx,age: 3}
+#
+#
+## 数组
+#pets:
+#  - cat
+#  - dog
+#  - pig
+#
+#pets2: [cat,dog,pig]
+
+# --------------------------通过yaml给对象赋值--------------------------
+person:
+  name: wxx${random.uuid}
+  age: ${random.int%100}  # %两边不能有空格
+  happy: false
+  birth: 2000/01/01
+  map: {k1: v1, k2: v2}
+  books:
+    - code
+    - music
+    - girl
+  dog:
+    name: ${person.hello:world}_旺财  # 如果存在person.hello，则拼接上，否则默认拼接world
+    age: 3
+
+# --------------------------通过yaml切换环境--------------------------
+spring:
+  profiles:
+    active: dev
+
+---
+server:
+  port: 8081
+spring:
+  profiles: test
+
+---
+
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+# --------------------------配置文件到底可以写什么?原理--------------------------
+# 配置文件到底可以写什么 和 spring.factories 有什么联系？联系很紧密
+# 请参照README.md
 
 
+# 可以通过 debug: true 来查看哪些自动配置类生效，哪些没有生效
+#debug: true
