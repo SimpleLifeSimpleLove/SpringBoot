@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Springboot02HelloworldApplication {
 
     public static void main(String[] args) {
+
+        // SpringApplication类，run方法
         // run方法通过反射将SpringBoot启动
         SpringApplication.run(Springboot02HelloworldApplication.class, args);
     }

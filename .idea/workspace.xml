@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc1bdbd6-f9a1-4d12-b3dd-396cbf21e92d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-02-helloworld/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-helloworld/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-02-helloworld/src/main/java/com/wxx/Springboot02HelloworldApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-helloworld/src/main/java/com/wxx/Springboot02HelloworldApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\Springboot\springboot-02-helloworld" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.Springboot02HelloworldApplication">
     <configuration name="Springboot01DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-01-demo" />
@@ -94,7 +96,8 @@
       <workItem from="1606303584785" duration="3551000" />
       <workItem from="1606311938996" duration="2027000" />
       <workItem from="1606464698929" duration="1801000" />
-      <workItem from="1606468205141" duration="3497000" />
+      <workItem from="1606468205141" duration="3571000" />
+      <workItem from="1606732829473" duration="1373000" />
     </task>
     <servers />
   </component>
@@ -106,38 +109,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606224886370" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1606733595238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606733595238" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1606733595237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1606313967615">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606733595237" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1606733595236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967615" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606733595236" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1606733595238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
-    <state width="1877" height="231" key="GridCell.Tab.1.bottom" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606733595238" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1606733597422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
-    <state width="1877" height="231" key="GridCell.Tab.1.center" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606733597422" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1606733597422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
-    <state width="1877" height="231" key="GridCell.Tab.1.left" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606733597422" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1606733597422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
-    <state width="1877" height="231" key="GridCell.Tab.1.right" timestamp="1606313967616">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606733597422" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1606733597422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606313967616" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606733597422" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1606468160574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -150,9 +153,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606468116556" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606468123051">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606733128442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606468123051" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606733128442" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.0.RELEASE/spring-boot-2.2.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
